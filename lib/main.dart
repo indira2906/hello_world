@@ -111,18 +111,18 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               '2141762022',
             ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headlineMedium,
-            ),
+            //Text(
+            //'$_counter',
+            //style: Theme.of(context).textTheme.headlineMedium,
+            //),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      //floatingActionButton: FloatingActionButton(
+      //onPressed: _incrementCounter,
+      //tooltip: 'Increment',
+      //child: const Icon(Icons.add),
+      //), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
