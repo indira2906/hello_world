@@ -111,10 +111,10 @@ class _MyHomePageState extends State<MyHomePage> {
             const Text(
               '2141762022',
             ),
-            //Text(
-            //'$_counter',
-            //style: Theme.of(context).textTheme.headlineMedium,
-            //),
+            Text(
+              '$_counter',
+              style: Theme.of(context).textTheme.headlineMedium,
+            ),
           ],
         ),
       ),
